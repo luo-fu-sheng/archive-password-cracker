@@ -1,5 +1,7 @@
 # 压缩包密码破解器
 
+GitHub 仓库：<https://github.com/luo-fu-sheng/archive-password-cracker>
+
 一个用于**恢复自己有权访问的压缩包密码**的 Windows 图形界面，底层调用
 [hashcat](https://hashcat.net/hashcat/) 8.0.0。
 
@@ -27,8 +29,8 @@
 hashcat 二进制**不提交到仓库**。克隆后准备一次即可：
 
 ```powershell
-git clone <你的仓库地址>
-cd <仓库目录>
+git clone https://github.com/luo-fu-sheng/archive-password-cracker.git
+cd archive-password-cracker
 
 # 方式一：从本地 hashcat 目录复制到 runtime/hashcat
 powershell -ExecutionPolicy Bypass -File scripts/setup_hashcat.ps1 `
