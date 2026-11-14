@@ -1,0 +1,33 @@
+# Local user data — never commit these
+data/
+*.hash
+*.pot
+*.potfile
+*.restore
+*.pid
+*.out
+*.log
+debug.log
+
+# Local hashcat runtime (download/copy separately)
+runtime/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Packaging / OS
+build/
+dist/
+*.spec
+.DS_Store
+Thumbs.db
+
+# Local secrets/config
+.env
+.env.*
+config.local.json
